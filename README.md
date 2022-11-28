@@ -1,7 +1,7 @@
 # Deploy de página feita em React
 
 Após ter criado a aplicação e o repositório no Github, crie um repositório .github, dentro dele crie mais um repositório chamado workflows e dentro deste crie um arquivo com a extensão .yml com o seguinte código:
-
+```
 name: deploy
 
 on:
@@ -26,3 +26,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+´´´
