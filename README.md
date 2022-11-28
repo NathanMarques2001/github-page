@@ -3,7 +3,7 @@
 - Criar aplicação e repositório no Github
 - Commitar aplicação
 - Criar diretório ".github"
-- Dentro do repositório ".github", criar o repositório workflows
+- Dentro do repositório ".github", criar o repositório "workflows"
 - Dentro de workflows criar um arquivo com a extensão ".yml" com o código a seguir:
 ```
 name: deploy
